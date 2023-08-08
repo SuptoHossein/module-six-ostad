@@ -22,10 +22,8 @@ function loginRegData() {
 </script>
 
 <template>
-  <p>{{ userData }}</p>
   <div class="" v-if="successMsg">
     <p class="mb-5 text-red-700" v-if="errorMsg">{{errorMsg}}</p>
-    <p>Lorem ipsum dolor sit amet.</p>
     <div class="mb-4">
       <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
         Username
