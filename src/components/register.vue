@@ -13,7 +13,7 @@ const userData = reactive({
 
 function storeRegData() {
   localStorage.clear();
-  if (userData.username !== '') {
+  if (userData.username !== '' && userData.password !== '' && userData.confirmPassword !== '') {
     if (userData.password === userData.confirmPassword) {
       errorMsg.value = ""
       localStorage.setItem('username', userData.username)
