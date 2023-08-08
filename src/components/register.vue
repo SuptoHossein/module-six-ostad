@@ -33,8 +33,7 @@ function storeRegData() {
 <template>
   <p class="mb-5 text-red-700" v-if="errorMsg">{{ errorMsg }}</p>
   <p class="mb-5 text-green-700" v-else>{{ successMsg }}</p>
-  <!--  {{errorMsg}}-->
-  <!--  {{successMsg}}-->
+
   <div class="mb-4">
     <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
       Username
